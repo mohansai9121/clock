@@ -54,13 +54,10 @@ const Clock = () => {
           <Link to='/StopWatch' style={{textDecoration:'none'}}><button className="button">Stopwatch</button></Link>
           <Link to='/Timer' style={{textDecoration:'none'}}><button className="button">Timer</button></Link>
         </div>
-      <br />
-      <br />
-      <br />
       <div>
         {time ? (
           <center>
-            <h3>{time}</h3>
+            <h3 style={{color:'#F7D54E'}}>{time}</h3>
           </center>
         ) : (
           ""
